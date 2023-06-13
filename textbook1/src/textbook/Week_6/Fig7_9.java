@@ -19,7 +19,7 @@ public class Fig7_9 {
     }
     public String toString()
     {
-        return face + "of" +suit;
+        return face + " of " +suit;
                 
     }
 }

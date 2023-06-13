@@ -11,12 +11,12 @@ package textbook.Week_6;
 public class Fig7_11 {
     public static void main(String[]  args)
     {
-        Fig7_11 myDeckOfCards = new Fig7_11();
-        Fig7_11.shuffle();
+        Fig7_10 myDeckOfCards = new Fig7_10();
+        myDeckOfCards.shuffle();
         
         for(int i=1;i<=52;i++)
         {
-            System.out.printf("%-19s", myDeckOfCards.dealCard());
+            System.out.printf("%-19s ", myDeckOfCards.dealCard());
             
             if(i%4==0)
             System.out.println();

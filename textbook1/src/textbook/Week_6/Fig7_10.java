@@ -11,10 +11,11 @@ import java.security.SecureRandom;
 public class Fig7_10 {
     private Fig7_9[] deck;
     private int currentCard;
-    private static final int NUMBER_OF_CARD =52;
-    private static final int SecureRandom randomNumbers = new SecureRandom();
+    private static final int NUMBER_OF_CARDS =52;
     
-    public DeckOfCards()
+    private static final SecureRandom randomNumbers = new SecureRandom();   
+    
+    public Fig7_10()
     {
         String[] faces={"Ace","Deuce","Three","Four","Five","Six",
             "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King" }; 
